@@ -192,7 +192,7 @@
             <shadowcolor>#000000</shadowcolor>
         </fontdef>
 
-        <area>600,860,-600,80</area>
+        <area>200,860,-200,80</area>
 
         <group name="msggroup">
             <area>0,0,100%,100%</area>
