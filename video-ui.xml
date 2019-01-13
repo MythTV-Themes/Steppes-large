@@ -949,7 +949,7 @@
                         </statetype>
 
                         <statetype name="videolevel">
-                            <area>100%-225,10,28,28</area>
+                            <area>100%-250,10,28,28</area>
                             <state name="None">
                                 <imagetype name="icon">
                                     <filename>mv_level_none.png</filename>
@@ -981,19 +981,19 @@
                         </statetype>
 
                         <textarea name="title">
-                            <area>80,4,-230,50</area>
+                            <area>80,4,-250,50</area>
                             <align>left,vcenter</align>
                             <font>mylarge</font>
                             <template>%TITLE%% - |SUBTITLE%</template>
                         </textarea>
 
                         <textarea name="year" from="basetextarea">
-                            <area>100%-80,4,-15,50</area>
+                            <area>100%-100,4,-15,50</area>
                             <font>mysmallnarrowgrey</font>
                             <align>right,vcenter</align>
                         </textarea>
                         <textarea name="s##e##" from="year">
-                            <area>100%-210,4,120,50</area>
+                            <area>100%-230,4,120,50</area>
                         </textarea>
 
                     </state>

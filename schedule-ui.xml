@@ -930,13 +930,6 @@
         <buttonlist name="shows" from="groupsList">
             <scrollstyle>free</scrollstyle>
             <wrapstyle>selection</wrapstyle>
-            <!-- loosen up the scroll arrows -->
-            <statetype name="upscrollarrow">
-                <position>100%-20,100%-110</position>
-            </statetype>
-            <statetype name="downscrollarrow">
-                <position>100%-20,100%-80</position>
-            </statetype>
         </buttonlist>
 
         <buttonlist name="times" from="scheduleList" />
@@ -1622,6 +1615,10 @@
                         -->
                         <align>left,vcenter</align>
                     </textarea>
+
+                    <textarea name="filesize_str">
+                        <area>0,0,0,0</area>
+                    </textarea>
                 </state> <!-- inactive -->
 
                 <state name="active" from="inactive">
@@ -1674,6 +1671,10 @@
                         <area>100%-550,100%-40,-170,40</area>
                         <align>center,bottom</align>
                         <font>myverysmall</font>
+                    </textarea>
+
+                    <textarea name="filesize_str">
+                        <area>0,0,0,0</area>
                     </textarea>
                 </state> <!-- selectedinactive -->
 

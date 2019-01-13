@@ -250,13 +250,13 @@
     -->
     <window name="osd_status">
         <fontdef name="title" face="CartoGothic Std">
-            <pixelsize>32</pixelsize>
+            <pixelsize>36</pixelsize>
             <color>#EEDDFF</color>
             <shadowoffset>1,1</shadowoffset>
             <shadowcolor>#000000</shadowcolor>
         </fontdef>
         <fontdef name="small" face="CartoGothic Std">
-            <pixelsize>32</pixelsize>
+            <pixelsize>36</pixelsize>
             <color>#FFFFFF</color>
             <shadowoffset>1,1</shadowoffset>
             <shadowcolor>#000000</shadowcolor>

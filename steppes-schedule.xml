@@ -28,11 +28,15 @@
                     <align>hcenter</align>
                     <template>(%1)</template>
                 </textarea>
+
+                <textarea name="filesize_str">
+                    <area>0,0,0,0</area>
+                </textarea>
             </state>
 
             <state name="selectedinactive">
                 <textarea name="rectypestatus">
-                    <area>30,100%-50,50%-10,45</area>
+                    <area>30,100%-45,50%-10,42</area>
                     <align>left,bottom</align>
                     <font>myverysmallpurple</font>
                     <font state="running">myverysmallgreen</font>
@@ -65,6 +69,9 @@
                     <template>(%1)</template>
                 </textarea>
 
+                <textarea name="filesize_str">
+                    <area>0,0,0,0</area>
+                </textarea>
             </state>
 
             <state name="active" from="inactive">
@@ -183,6 +190,20 @@
                             <align>right,vcenter</align>
                         </textarea>
                     </group>
+
+                    <textarea name="titlesubtitle">
+                        <area>15,100%-50,-155,45</area>
+                        <align>left</align>
+                        <font>mymedium</font>
+                    </textarea>
+
+                    <textarea name="s00e00">
+                        <area>0,0,0,0</area>
+                    </textarea>
+
+                    <textarea name="filesize_str">
+                        <area>0,0,0,0</area>
+                    </textarea>
                 </state>
 
                 <state name="active" from="inactive">

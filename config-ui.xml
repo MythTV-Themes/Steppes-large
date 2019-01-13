@@ -338,22 +338,22 @@
         </group>
 
         <group name="dialog">
-            <area>50%-250,150,500,600</area>
+            <area>50%-250,100,540,600</area>
 
             <shape name="background" from="basewidgetshape" />
 
             <button name="submit" from="baselargebutton">
-                <position>50%-200,120</position>
+                <area>50%-230,120,460,105</area>
                 <value>Submit your hardware profile</value>
             </button>
 
             <button name="view" from="submit">
-                <position>50%-200,225</position>
+                <position>50%-230,225</position>
                 <value>View your hardware profile</value>
             </button>
 
             <button name="delete" from="submit">
-                <position>50%-200,330</position>
+                <position>50%-230,330</position>
                 <value>Delete your hardware profile</value>
             </button>
 
@@ -385,75 +385,75 @@
         </group>
 
         <group name="dialog">
-            <area>50%-560,25,1120,850</area>
+            <area>50%-560,25,1120,830</area>
 
             <shape name="background" from="basewidgetshape" />
 
             <textarea name="auddev_text" from="labeltext">
-                <position>20,35</position>
+                <position>20,15</position>
                 <value>Audio Device:</value>
             </textarea>
 
             <buttonlist name="audiodevices" from="basewideselector">
-                <area>280,35,800,105</area>
+                <area>280,15,800,105</area>
             </buttonlist>
 
             <checkbox name="ac3check" from="basecheckbox">
-                <position>280,140</position>
+                <position>280,120</position>
             </checkbox>
 
             <textarea name="ac3_text" from="labelcheckbox">
-                <area>320,140,750,105</area>
+                <area>320,120,750,105</area>
                 <value>My audio subsystem supports Dolby Digital</value>
             </textarea>
 
             <checkbox name="dtscheck" from="ac3check">
-                <position>280,245</position>
+                <position>280,225</position>
             </checkbox>
 
             <textarea name="dts_text" from="ac3_text">
-                <position>320,245</position>
+                <position>320,225</position>
                 <value>My audio subsystem supports DTS</value>
             </textarea>
 
             <checkbox name="eac3check" from="ac3check">
-                <position>280,350</position>
+                <position>280,330</position>
             </checkbox>
 
             <textarea name="eac3_text" from="ac3_text">
-                <position>320,350</position>
+                <position>320,330</position>
                 <value>My audio subsystem supports E-AC-3</value>
             </textarea>
 
             <checkbox name="truehdcheck" from="ac3check">
-                <position>280,455</position>
+                <position>280,435</position>
             </checkbox>
 
             <textarea name="truehd_text" from="ac3_text">
-                <position>320,455</position>
+                <position>320,435</position>
                 <value>My audio subsystem supports TrueHD</value>
             </textarea>
 
             <checkbox name="dtshdcheck" from="ac3check">
-                <position>280,560</position>
+                <position>280,540</position>
             </checkbox>
 
             <textarea name="dtshd_text" from="ac3_text">
-                <position>320,560</position>
+                <position>320,540</position>
                 <value>My audio subsystem supports DTS-HD</value>
             </textarea>
 
             <textarea name="speaktext_text" from="auddev_text">
-                <position>20,665</position>
+                <position>20,645</position>
                 <value>Number of Speakers:</value>
             </textarea>
 
             <buttonlist name="speakers" from="basemediumselector">
-                <area>280,665,400,105</area>
+                <area>280,645,400,105</area>
             </buttonlist>
 
             <button name="testspeakers" from="varbuttoncenter">
-                <area>700,665,-40,105</area>
+                <area>700,645,-40,105</area>
             </button>
 
             <group name="buttons">
