@@ -1038,7 +1038,7 @@
             <color>#FFFFFF</color>
         </fontdef>
 
-        <area>50,40,525,-40</area>
+        <area>50,40,650,-40</area>
 
         <shape name="basebackground">
             <area>0,0,100%,100%</area>
@@ -1053,7 +1053,7 @@
             <line color="#55FFFF" alpha="96" width="2" />
         </shape>
         <textarea name="messagearea">
-            <area>10,5,-10,300</area>
+            <area>7,5,-7,300</area>
             <font>small</font>
             <multiline>yes</multiline>
             <align>center</align>
