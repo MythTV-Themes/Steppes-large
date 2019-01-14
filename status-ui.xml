@@ -25,19 +25,19 @@
 
         <buttonlist name="log" from="itemsList">
             <statetype name="buttonitem">
-                <minsize shrink="short">100%,60</minsize>
+                <minsize shrink="short">100%,50</minsize>
 
                 <state name="inactive">
                     <area>150,0,100%,100%</area>
-                    <minsize shrink="short">100%,60</minsize>
+                    <minsize shrink="short">100%,50</minsize>
                     <statetype name="status" from="itemsNotSelectedState">
                         <area>0,0,100%,100%</area>
-                        <minsize shrink="short">100%,60</minsize>
+                        <minsize shrink="short">100%,50</minsize>
                     </statetype>
 
                     <textarea name="buttontext">
-                        <area>15,11,-15,-11</area>
-                        <minsize shrink="short">100%,60</minsize>
+                        <area>15,6,-15,-6</area>
+                        <minsize shrink="short">100%,50</minsize>
                         <align>vcenter,left</align>
                         <font>mysmall</font>
                         <multiline>yes</multiline>
@@ -48,38 +48,38 @@
                     <area>150,0,100%,100%</area>
                     <statetype name="status" from="itemsNotSelectedState">
                         <area>0,0,100%,100%</area>
-                        <minsize shrink="short">100%,60</minsize>
+                        <minsize shrink="short">100%,50</minsize>
                     </statetype>
 
                     <textarea name="buttontext">
-                        <area>15,11,-15,-11</area>
+                        <area>15,6,-15,-6</area>
                     </textarea>
                 </state>
 
                 <state name="active" from="inactive">
                     <area>0,0,100%,100%</area>
-                    <minsize shrink="short">100%,60</minsize>
+                    <minsize shrink="short">100%,50</minsize>
                     <statetype name="status" from="itemsNotSelectedState">
                         <area>0,0,100%,100%</area>
-                        <minsize shrink="short">100%,60</minsize>
+                        <minsize shrink="short">100%,50</minsize>
                     </statetype>
 
                     <textarea name="buttontext">
-                        <area>15,11,-15,-11</area>
-                        <minsize shrink="short">100%,60</minsize>
+                        <area>15,6,-15,-6</area>
+                        <minsize shrink="short">100%,50</minsize>
                     </textarea>
                 </state>
 
                 <state name="selectedactive" from="selectedinactive" >
                     <area>0,0,100%,100%</area>
-                    <minsize shrink="short">100%,60</minsize>
+                    <minsize shrink="short">100%,50</minsize>
                     <statetype name="status" from="itemsSelectedState">
-                        <minsize shrink="short">100%,60</minsize>
+                        <minsize shrink="short">100%,50</minsize>
                     </statetype>
 
                     <textarea name="buttontext">
-                        <area>15,11,-15,-11</area>
-                        <minsize shrink="short">100%,60</minsize>
+                        <area>15,6,-15,-6</area>
+                        <minsize shrink="short">100%,50</minsize>
                     </textarea>
                 </state>
             </statetype>
