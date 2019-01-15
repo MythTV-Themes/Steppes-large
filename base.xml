@@ -2074,7 +2074,7 @@
     </buttonlist>
 
     <group name="guideprogdetails">
-        <area>40,35,500,970</area>
+        <area>40,25,500,980</area>
 
         <group name="wheregroup" from="baseMsgGroup">
             <area>0,0,100%,126</area>
@@ -2086,7 +2086,7 @@
                 <font>mysmallnarrow</font>
             </textarea>
 
-            <textarea name="timedate" from="msgText">
+            <textarea name="shorttimedate" from="msgText">
                 <area>5,40,-5,50</area>
                 <font>mysmallnarrow</font>
             </textarea>
