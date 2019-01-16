@@ -311,7 +311,7 @@
         <color>#A0BFFF</color>
     </fontdef>
 
-    <fontdef name="myverymalllabel" from="myverysmall">
+    <fontdef name="myverysmalllabel" from="myverysmall">
         <color>#A0BFFF</color>
     </fontdef>
 
@@ -2568,14 +2568,14 @@
 
                 <textarea name="filesize_str">
                     <area>100%-155,100%-51,-15,45</area>
-                    <font>myverymalllabel</font>
+                    <font>myverysmalllabel</font>
                     <extraleading>-3</extraleading>
                     <align>right,vcenter</align>
                 </textarea>
 
                 <textarea name="s00e00">
                     <area>15,100%-51,130,45</area>
-                    <font>myverymalllabel</font>
+                    <font>myverysmalllabel</font>
                     <extraleading>-3</extraleading>
                     <align>center</align>
                 </textarea>
