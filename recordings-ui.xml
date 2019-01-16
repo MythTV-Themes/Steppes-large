@@ -112,7 +112,7 @@
                 <state name="selectedinactive">
                     <area>150,0,100%,400</area>
 
-                    <statetype name="status" from="itemsSelectedState">
+                    <statetype name="status" from="itemsNotSelectedState">
                     </statetype>
 
                     <group name="progstats" from="programStatsInactive">
