@@ -457,15 +457,15 @@
             </button>
 
             <group name="buttons">
-                <area>0, 100%-90, 100%, 80</area>
+                <area>0,100%-90,100%,80</area>
 
                 <button name="previous" from="varbuttonright">
-                    <area>100%-540, 0, 250, 100%</area>
+                    <area>100%-540,0,250,100%</area>
                     <value>Prev</value>
                 </button>
 
                 <button name="next" from="varbuttonleft">
-                    <area>100%-285, 0, 250, 100%</area>
+                    <area>100%-285,0,250,100%</area>
                     <value>Next</value>
                 </button>
             </group>
@@ -513,14 +513,14 @@
             </button>
 
             <group name="buttons">
-                <area>380, 100%-100, 440, 85</area>
+                <area>380,100%-100,440,85</area>
 
                 <button name="previous" from="varbuttonright">
-                    <area>0, 0, 215, 100%</area>
+                    <area>0,0,215,100%</area>
                     <value>Prev</value>
                 </button>
                 <button name="next" from="varbuttonleft">
-                    <area>220, 0, -5, 100%</area>
+                    <area>220,0,-5,100%</area>
                     <value>Finish</value>
                 </button>
             </group>
@@ -666,12 +666,12 @@
         </group>
 
         <button name="save" from="varbuttonleft">
-            <area>50%+410, 100%-195, -30, 80</area>
+            <area>50%+410,100%-195,-30,80</area>
             <value>Save</value>
         </button>
 
         <button name="cancel" from="varbuttonright">
-            <area>30, 100%-195, 50%-425, 80</area>
+            <area>30,100%-195,50%-425,80</area>
             <value>Cancel</value>
         </button>
 
@@ -829,7 +829,7 @@
             </shape>
 
             <group name="basegroup">
-                <area>10, 250, 50%-20, 140</area>
+                <area>10,250,50%-20,140</area>
                 <textarea name="base_label" from="basetextarea">
                     <area>5,33,200,-5</area>
                     <multiline>yes</multiline>
@@ -855,7 +855,7 @@
             </group>
 
             <group name="statusgroup" from="basegroup">
-                <area>10, 50, 50%-20, 90</area>
+                <area>10,50,50%-20,90</area>
                 <shape name="shadow">
                     <area>0,0,100%,100%</area>
                     <type>roundbox</type>
@@ -869,7 +869,7 @@
             </group>
 
             <group name="lockgroup" from="basegroup">
-                <area>10, 150, 50%-20, 90</area>
+                <area>10,150,50%-20,90</area>
                 <shape name="shadow">
                     <area>0,0,100%,100%</area>
                     <type>roundbox</type>
@@ -883,7 +883,7 @@
             </group>
 
             <group name="progressgroup" from="basegroup">
-                <position>10, 250</position>
+                <position>10,250</position>
                 <shape name="shadow">
                     <area>0,0,100%,100%</area>
                     <type>roundbox</type>
@@ -905,7 +905,7 @@
             </group>
 
             <group name="signalnoisegroup" from="basegroup">
-                <position>10, 400</position>
+                <position>10,400</position>
                 <shape name="shadow">
                     <area>0,0,100%,100%</area>
                     <type>roundbox</type>
@@ -922,7 +922,7 @@
             </group>
 
             <group name="signalstrengthgroup" from="basegroup">
-                <position>10, 550</position>
+                <position>10,550</position>
                 <shape name="shadow">
                     <area>0,0,100%,100%</area>
                     <type>roundbox</type>
@@ -939,7 +939,7 @@
             </group>
 
             <group name="rotatorgroup" from="basegroup" depends="rotorprogress">
-                <position>10, 700</position>
+                <position>10,700</position>
                 <shape name="shadow">
                     <area>0,0,100%,100%</area>
                     <type>roundbox</type>

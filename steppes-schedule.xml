@@ -252,7 +252,7 @@
                         <area>8,100%-150,-8,-10</area>
 
                         <shape name="infoshape">
-                            <area>0, 0, 100%, 100%</area>
+                            <area>0,0,100%,100%</area>
                             <type>roundbox</type>
                             <line alpha="0" width="0" />
                             <fill color="#502550" alpha="80" />
