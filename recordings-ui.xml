@@ -52,6 +52,11 @@
         <buttonlist name="recordings" from="episodeList">
             <statetype name="buttonitem">
                 <state name="inactive">
+
+                    <statetype name="status">
+                         <state name="disabled" from="error" />
+                    </statetype>
+
                     <shape name="stateshape">
                         <area>45,5,115,32</area>
                         <type>roundbox</type>
@@ -117,6 +122,7 @@
                     <area>150,0,100%,400</area>
 
                     <statetype name="status" from="itemsNotSelectedState">
+                         <state name="disabled" from="error" />
                     </statetype>
 
                     <group name="progstats" from="programStatsInactive">
@@ -349,6 +355,7 @@
                 <state name="selectedactive" from="selectedinactive">
                     <area>0,0,100%,400</area>
                     <statetype name="status" from="itemsSelectedState">
+                         <state name="disabled" from="error" />
                     </statetype>
 
                     <group name="progstats" from="programStatsActive">
