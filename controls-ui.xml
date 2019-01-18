@@ -79,7 +79,8 @@
 
         </group>
 
-        <group name="msg" from="baseMsgGroup">
+        <group name="msg" from="baseMsgGroupWide">
+            <area>30,945,600,-30</area>
             <textarea name="description" from="msgText" />
         </group>
 

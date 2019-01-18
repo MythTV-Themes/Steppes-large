@@ -30,6 +30,10 @@
 
         <buttonlist name="groups" from="groupsList">
             <statetype name="buttonitem">
+                <state name="selectedinactive" from="inactive">
+                    <area>0,0,372,155</area>
+                </state>
+
                 <state name="inactive">
                     <!-- Make inactive buttons disappear -->
                     <area>0,0,0,0</area>
@@ -355,7 +359,7 @@
         </buttonlist>
 
         <group name="msggroup" from="baseMsgGroupLarge">
-            <area>35,820,370,-30</area>
+            <area>30,820,370,-30</area>
             <textarea name="norecordings" from="msgText">
                 <font>mysmall</font>
                 <value>No recordings exist</value>
@@ -374,7 +378,7 @@
         </group>
 
         <group name="previewgroup">
-            <area>35,820,370,-30</area>
+            <area>30,820,370,-30</area>
             <minsize vanish="yes">100%,100%</minsize>
 
             <shape name="previewBackground">

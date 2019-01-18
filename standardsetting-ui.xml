@@ -32,7 +32,7 @@
         </group>
 
         <buttonlist name="settingslist" from2="basebuttonlist">
-            <area>70,130,-70,-170</area>
+            <area>70,130,-70,-260</area>
             <layout>vertical</layout>
             <wrapstyle>selection</wrapstyle>
             <arrange>stack</arrange>
@@ -207,12 +207,12 @@
             </statetype>
 
             <group name="bar" from="basescrollgroup">
-                <area>10,15,15,-30</area>
+                <area>10,15,15,-50</area>
             </group>
         </buttonlist>
 
         <group name="help" depends="selectedsettinghelp">
-            <area>40,100%-170,-40,-80</area>
+            <area>40,100%-260,-40,-80</area>
             <minsize>300, 90</minsize>
 
             <shape name="helpshape">

@@ -1740,7 +1740,7 @@
     </statetype>
 
     <group name="baseMsgGroup">
-        <area>35,945,370,-30</area>
+        <area>30,945,370,-30</area>
         <shape name="msgShape">
             <area>0,0,100%,100%</area>
             <type>roundbox</type>
@@ -1765,15 +1765,15 @@
     </group>
 
     <group name="baseMsgGroupLarge" from="baseMsgGroup">
-        <area>35,820,370,-30</area>
+        <area>30,820,370,-30</area>
     </group>
 
     <group name="baseMsgGroupTall" from="baseMsgGroup">
-        <area>35,702,370,338</area>
+        <area>30,702,370,338</area>
     </group>
 
     <group name="baseMsgGroupWide" from="baseMsgGroup">
-        <area>52,809,500,240</area>
+        <area>30,809,500,240</area>
     </group>
 
     <group name="baseMsgGroupBanner" from="baseMsgGroup">
@@ -1970,16 +1970,16 @@
         <arrange>stack</arrange>
         <align>bottom,left</align>
         <area>30,25,520,785</area>
-        <buttonarea>20,0,-20,100%</buttonarea>
+        <buttonarea>0,0,100%,100%</buttonarea>
         <scrollstyle>center</scrollstyle>
         <wrapstyle>items</wrapstyle>
         <spacing>0</spacing>
 
         <statetype name="buttonitem">
-            <area>0,0,-6,100%</area>
+            <area>0,0,100%,100%</area>
 
             <state name="inactive">
-                <area>10,0,334,105</area>
+                <area>30,0,332,105</area>
 
                 <shape name="groupBorder">
                     <area>0,0,100%,100%</area>
@@ -2000,11 +2000,11 @@
             </state>
 
             <state name="active" from="inactive">
-                <area>20,0,-20,105</area>
+                <area>30,0,442,105</area>
             </state>
 
             <state name="selectedinactive" from="inactive">
-                <area>0,0,354,155</area>
+                <area>20,0,352,155</area>
                 <shape name="groupBorder">
                     <area>2,0,-2,100%</area>
                     <line color="#50EFDF" alpha="250" width="2" />
@@ -2029,7 +2029,7 @@
             </state>
 
             <state name="selectedactive" from="selectedinactive">
-                <area>0,0,100%,155</area>
+                <area>15,0,472,155</area>
                 <shape name="groupBorder">
                     <area>6,0,-6,100%</area>
                     <type>roundbox</type>
