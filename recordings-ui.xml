@@ -13,7 +13,7 @@
         </imagetype>
 
         <imagetype name="coverart">
-            <area>50,20,354,610</area>
+            <area>30,20,374,610</area>
             <filename />
             <preserveaspect>true</preserveaspect>
         </imagetype>
@@ -31,7 +31,7 @@
         <buttonlist name="groups" from="groupsList">
             <statetype name="buttonitem">
                 <state name="selectedinactive" from="inactive">
-                    <area>0,0,372,155</area>
+                    <area>0,0,372,180</area>
                 </state>
 
                 <state name="inactive">

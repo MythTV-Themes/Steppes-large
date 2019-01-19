@@ -2004,7 +2004,10 @@
             </state>
 
             <state name="selectedinactive" from="inactive">
+<!--
                 <area>20,0,352,155</area>
+-->
+                <area>20,0,352,105</area>
                 <shape name="groupBorder">
                     <area>2,0,-2,100%</area>
                     <line color="#50EFDF" alpha="250" width="2" />
@@ -2029,7 +2032,11 @@
             </state>
 
             <state name="selectedactive" from="selectedinactive">
+<!--
                 <area>15,0,472,155</area>
+-->
+                <area>15,0,472,105</area>
+
                 <shape name="groupBorder">
                     <area>6,0,-6,100%</area>
                     <type>roundbox</type>
