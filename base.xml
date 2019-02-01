@@ -855,7 +855,7 @@
                     <cornerradius>15</cornerradius>
                 </shape>
                 <textarea name="buttontext" from="basewidgettext">
-                    <area>20,3,-20,-5</area>
+                    <area>30,3,-30,-5</area>
                 </textarea>
             </state>
             <state name="selectedinactive" from="active" />
@@ -1110,7 +1110,7 @@
 
     <!-- Popup dialog to enter into a spin box -->
     <window name="SpinBoxEntryDialog">
-        <area>50%-700,50%-300,1400,300</area>
+        <area>50%-700,50%-300,1200,315</area>
 
         <shape name="background" from="basebuttonshape">
             <type>roundbox</type>
@@ -1135,12 +1135,12 @@
             <group name="spin">
                 <area>10,10,-420,-10</area>
 
-                <textedit name="entry" from="basewidetextedit">
+                <textedit name="entry" from="basecentertextedit">
                     <area>30,10,-10,105</area>
                 </textedit>
 
                 <group name="help">
-                    <area>30,110,-30,80</area>
+                    <area>30,120,-30,80</area>
                     <minsize>300,60</minsize>
 
                     <shape name="pagehelpshape">
@@ -2597,9 +2597,9 @@
                 </textarea>
 
                 <textarea name="parttotal">
-                    <area>675,100%-50,230,45</area>
-                    <align>hcenter,bottom</align>
-                    <font>mysmalllabel</font>
+                    <area>675,100%-51,230,45</area>
+                    <align>center</align>
+                    <font>myverysmalllabel</font>
                     <template>%Part |PARTNUMBER| of %%PARTTOTAL%</template>
                 </textarea>
 
