@@ -2475,6 +2475,10 @@
                     </group>
                 </checkbox>
 
+                <shape name="stateshape">
+                    <area>0,0,0,0</area>
+                </shape>
+
                 <statetype name="jobstate">
                     <area>2,0,30,45</area>
                     <state name="recording">
@@ -2517,11 +2521,7 @@
                 </textarea>
 
                 <textarea name="syndicatedepisode" from="s00e00"
-                          depends="!s00e00">
-<!--
-                    <template>%|[SYNDICATEDEPISODE|]%</template>
--->
-                </textarea>
+                          depends="!s00e00" />
             </state>
 
             <state name="active" from="inactive">
@@ -2553,14 +2553,21 @@
                 <textarea name="s00e00" depends="subtitle">
                     <area>15,108,130,50</area>
                 </textarea>
-
-                <textarea name="syndicatedepisode" from="s00e00"
-                          depends="!s00e00&amp;subtitle">
 <!--
-                    <template>%|[SYNDICATEDEPISODE|]%</template>
--->
+                <textarea name="s00e00" depends="!subtitle">
+                    <area>15,4,115,42</area>
                 </textarea>
-
+-->
+                <textarea name="syndicatedepisode"
+                          depends="!s00e00&amp;subtitle">
+                    <area>15,108,130,50</area>
+                </textarea>
+<!--
+                <textarea name="syndicatedepisode"
+                          depends="!s00e00&amp;!subtitle">
+                    <area>15,4,115,42</area>
+                </textarea>
+-->
                 <textarea name="subtitle">
                     <area>145,110,-15,50</area>
                     <align>left</align>
@@ -2595,6 +2602,10 @@
                     <template>%|RATING| %%|(STARS|) %%DESCRIPTION%</template>
                 </textarea>
 
+                <statetype name="jobstate">
+                    <area>2,100%-50,30,45</area>
+                </statetype>
+
                 <textarea name="parttotal">
                     <area>675,100%-51,230,45</area>
                     <align>center</align>
@@ -2612,10 +2623,6 @@
                 <group name="progstats" from="programStatsActive">
                     <area>175,4,100%,42</area>
                 </group>
-
-                <statetype name="jobstate">
-                    <area>10,0,30,45</area>
-                </statetype>
 
                 <textarea name="title">
                     <position>20,50</position>
