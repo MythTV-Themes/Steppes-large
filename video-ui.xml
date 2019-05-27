@@ -264,17 +264,16 @@
                         <font>mylargebold</font>
                         <cutdown>no</cutdown>
                         <scroll direction="horizontal" returnrate="140" returndelay="4" />
+
+                        <template>%TITLE%% - |SUBTITLE%</template>
                     </textarea>
+
                     <textarea name="subtitle">
-                        <area>60,110,-15,50</area>
-                        <align>left</align>
-                        <font>mymediumbold</font>
-                        <cutdown>no</cutdown>
-                        <scroll direction="horizontal" returnrate="140" returndelay="4" />
+                        <area>0,0,0,0</area>
                     </textarea>
 
                     <textarea name="description" depends="subtitle">
-                        <area>20,160,-25,-150</area>
+                        <area>20,110,-25,-150</area>
                     </textarea>
                     <textarea name="description0" depends="!subtitle">
                         <area>20,110,-25,-150</area>
