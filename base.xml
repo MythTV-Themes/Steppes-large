@@ -2533,7 +2533,15 @@
                 </textarea>
 
                 <textarea name="syndicatedepisode" from="s00e00"
-                          depends="!s00e00" />
+                          depends="!s00e00">
+<!--
+                    <template>%|[SYNDICATEDEPISODE|]%</template>
+-->
+                </textarea>
+
+                <textarea name="stars" from="s00e00"
+                          depends="!s00e00&amp;!syndicatedepisode">
+                </textarea>
             </state>
 
             <state name="active" from="inactive">
@@ -2568,21 +2576,18 @@
                 <textarea name="s00e00" depends="subtitle">
                     <area>15,108,130,50</area>
                 </textarea>
-<!--
-                <textarea name="s00e00" depends="!subtitle">
-                    <area>15,4,115,42</area>
-                </textarea>
--->
-                <textarea name="syndicatedepisode"
+
+                <textarea name="syndicatedepisode" from="s00e00"
                           depends="!s00e00&amp;subtitle">
-                    <area>15,108,130,50</area>
-                </textarea>
 <!--
-                <textarea name="syndicatedepisode"
-                          depends="!s00e00&amp;!subtitle">
-                    <area>15,4,115,42</area>
-                </textarea>
+                    <template>%|[SYNDICATEDEPISODE|]%</template>
 -->
+                </textarea>
+
+                <textarea name="stars" from="s00e00"
+                          depends="subtitle&amp;!s00e00&amp;!syndicatedepisode">
+                </textarea>
+
                 <textarea name="subtitle">
                     <area>145,110,-15,50</area>
                     <align>left</align>
