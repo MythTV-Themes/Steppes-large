@@ -28,6 +28,6 @@
         -->
         <description>A version of Steppes with 25% larger fonts.
         Reminder: On Watch Recordings screen [Rew] and [FF] can be used to change the Rec. Group.</description>
-        <errata></errata>
+        <errata>Requires MythTV from 2019-05-31</errata>
     </detail>
 </themeinfo>
