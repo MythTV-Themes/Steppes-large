@@ -315,6 +315,10 @@
         <color>#A0BFFF</color>
     </fontdef>
 
+    <fontdef name="myverysmallsub" from="myverysmall">
+        <color>#90D0B0</color>
+    </fontdef>
+
     <fontdef name="mysmallnarrowlabel" from="mysmallnarrowsemibold">
         <color>#A0BFFF</color>
     </fontdef>
@@ -2142,7 +2146,7 @@
                 <area>10,10,-10,-10</area>
                 <font>myverysmall</font>
                 <align>left,top</align>
-                <template format="true">[font]myverysmalllabel[/font]%(|s00e00|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmalllabel[/font]Part |PARTNUMBER| of %%PARTTOTAL%</template>
+                <template format="true">[font]myverysmalllabel[/font]%(|s00e00|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmallsub[/font]Part |PARTNUMBER| of %%PARTTOTAL%</template>
                 <scroll direction="vertical" rate="7" returnrate="105"
                         startdelay="15" returndelay="15"/>
                 <cutdown>no</cutdown>
@@ -2161,7 +2165,7 @@
                 <scroll direction="vertical" rate="7" returnrate="105"
                         startdelay="15" returndelay="15"/>
                 <cutdown>no</cutdown>
-                <template format="true">[font]myverysmalllabel[/font]%(|s00e00|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmalllabel[/font]Part |PARTNUMBER| of %%PARTTOTAL%</template>
+                <template format="true">[font]myverysmalllabel[/font]%(|s00e00|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmallsub[/font]Part |PARTNUMBER| of %%PARTTOTAL%</template>
             </textarea>
         </group>
     </group>
@@ -2505,14 +2509,14 @@
                     <area>145,100%-50,-155,45</area>
                     <align>left</align>
                     <font>mymediumlight</font>
-                    <template>%SUBTITLE%</template>
+                    <template format="true">%SUBTITLE%%[font]myverysmallsub[/font]  [Part |PARTNUMBER|]%</template>
                 </textarea>
 
                 <textarea name="titlesubtitle" depends="!titlesubtitlefull">
                     <area>145,100%-50,-155,45</area>
                     <align>left</align>
                     <font>mymedium</font>
-                    <template format="true">%TITLE%% - [font]mymediumlight[/font]|SUBTITLE%</template>
+                    <template format="true">%TITLE%% - [font]mymediumlight[/font]|SUBTITLE%%[font]myverysmallsub[/font]  [Part |PARTNUMBER|]%</template>
                 </textarea>
 
                 <textarea name="filesize_str">
@@ -2620,7 +2624,7 @@
                 <textarea name="parttotal">
                     <area>675,100%-51,230,45</area>
                     <align>center</align>
-                    <font>myverysmalllabel</font>
+                    <font>myverysmallsub</font>
                     <template>%Part |PARTNUMBER| of %%PARTTOTAL%</template>
                 </textarea>
 
