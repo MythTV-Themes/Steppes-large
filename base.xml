@@ -70,7 +70,7 @@
     <fontdef name="mysmalllight" face="Titillium">
         <color>#F0F0FF</color>
         <pixelsize>36</pixelsize>
-        <weight>1</weight>
+        <weight>2</weight>
     </fontdef>
 
     <fontdef name="mysmallnarrowlight" face="Titillium">
@@ -2501,10 +2501,18 @@
                     <area>175,4,100%,42</area>
                 </group>
 
-                <textarea name="titlesubtitle">
+                <textarea name="titlesubtitlefull" depends="titlesubtitlefull">
+                    <area>145,100%-50,-155,45</area>
+                    <align>left</align>
+                    <font>mymediumlight</font>
+                    <template>%SUBTITLE%</template>
+                </textarea>
+
+                <textarea name="titlesubtitle" depends="!titlesubtitlefull">
                     <area>145,100%-50,-155,45</area>
                     <align>left</align>
                     <font>mymedium</font>
+                    <template format="true">%TITLE%% - [font]mymediumlight[/font]|SUBTITLE%</template>
                 </textarea>
 
                 <textarea name="filesize_str">
@@ -2538,6 +2546,9 @@
                     <area>175,4,100%,42</area>
                 </group>
 
+                <textarea name="titlesubtitlefull">
+                    <area>0,0,0,0</area>
+                </textarea>
                 <textarea name="titlesubtitle">
                     <area>0,0,0,0</area>
                 </textarea>
@@ -2571,7 +2582,7 @@
                 <textarea name="subtitle">
                     <area>145,110,-15,50</area>
                     <align>left</align>
-                    <font>mymediumbold</font>
+                    <font>mymediumlight</font>
                     <cutdown>no</cutdown>
                     <scroll direction="horizontal" returnrate="140" returndelay="4" />
 <!--
