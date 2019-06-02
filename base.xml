@@ -32,18 +32,18 @@
     <!-- Small -->
     <fontdef name="mysmall" face="CartoGothic Std">
         <color>#F0F0FF</color>
-        <pixelsize>36</pixelsize>
+        <pixelsize>35</pixelsize>
     </fontdef>
 
     <fontdef name="mysmallbold" face="CartoGothic Std">
         <color>#EEDDFF</color>
-        <pixelsize>36</pixelsize>
+        <pixelsize>35</pixelsize>
         <weight>bold</weight>
     </fontdef>
 
     <fontdef name="mysmallsemibold" face="Titillium">
         <color>#F0F0FF</color>
-        <pixelsize>36</pixelsize>
+        <pixelsize>35</pixelsize>
         <weight>4</weight>
     </fontdef>
 
@@ -69,7 +69,7 @@
 
     <fontdef name="mysmalllight" face="Titillium">
         <color>#F0F0FF</color>
-        <pixelsize>36</pixelsize>
+        <pixelsize>35</pixelsize>
         <weight>2</weight>
     </fontdef>
 
@@ -104,32 +104,32 @@
     <!-- Medium -->
     <fontdef name="mymedium" from="mysmall">
         <color>#EEDDFF</color>
-        <pixelsize>38</pixelsize>
+        <pixelsize>37</pixelsize>
     </fontdef>
 
     <fontdef name="mymediumbold" from="mysmallbold">
         <color>#EEDDFF</color>
-        <pixelsize>38</pixelsize>
+        <pixelsize>37</pixelsize>
     </fontdef>
 
     <fontdef name="mymediumsemibold" from="mysmallsemibold">
-        <pixelsize>38</pixelsize>
+        <pixelsize>37</pixelsize>
     </fontdef>
 
     <fontdef name="mymediumlight" from="mysmalllight">
-        <pixelsize>38</pixelsize>
+        <pixelsize>37</pixelsize>
     </fontdef>
 
     <fontdef name="mymediumnarrow" from="mysmallnarrow">
-        <pixelsize>38</pixelsize>
+        <pixelsize>37</pixelsize>
     </fontdef>
 
     <fontdef name="mymediumnarrowbold" from="mysmallnarrowbold">
-        <pixelsize>38</pixelsize>
+        <pixelsize>37</pixelsize>
     </fontdef>
 
     <fontdef name="mymediumnarrowlight" from="mysmallnarrowlight">
-        <pixelsize>38</pixelsize>
+        <pixelsize>37</pixelsize>
     </fontdef>
 
     <!-- Large -->
@@ -316,6 +316,7 @@
     </fontdef>
 
     <fontdef name="myverysmallsub" from="myverysmall">
+        <pixelsize>31</pixelsize>
         <color>#90D0B0</color>
     </fontdef>
 
@@ -332,7 +333,7 @@
     <!-- Small -->
     <fontdef name="mysmallmono" face="Ubuntu Mono">
         <color>#F0F0FF</color>
-        <pixelsize>36</pixelsize>
+        <pixelsize>35</pixelsize>
     </fontdef>
 
     <group name="baseDateHeading">
