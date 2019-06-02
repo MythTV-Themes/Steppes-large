@@ -697,43 +697,6 @@
                     <align>bottom,right</align>
                 </textarea>
             </group>
-
-<!--
-            <group name="descgroup0" from="baseMsgGroup" depends="subtitle">
-                <area>0,414,100%,100%</area>
-
-            <shape name="msgShape">
-                <line color="#00FFFF" alpha="160" width="2" />
-            </shape>
-            <textarea name="description" from="msgText">
-                <area>10,10,-10,-10</area>
-                <font>myverysmall</font>
-                <align>left,top</align>
-                <template>[font]myverysmalllabel[/font]%(|s00e00|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmallsub[/font]Part |PARTNUMBER| of %%PARTTOTAL%%\n[font]myverysmallsub[/font]|CAST| %%[font]myverysmallsub[/font]  \nDirector: |DIRECTOR| %</template>
-                <scroll direction="vertical" rate="7" returnrate="105"
-                        startdelay="15" returndelay="15"/>
-                <cutdown>no</cutdown>
-            </textarea>
-            </group>
--->
-<!--
-            <group name="descgroup1" from="baseMsgGroup" depends="!subtitle">
-                <area>0,290,100%,100%</area>
-
-                <shape name="msgShape">
-                    <line color="#00FFFF" alpha="160" width="2" />
-                </shape>
-                <textarea name="description0" from="msgText">
-                    <area>10,10,-10,-10</area>
-                    <font>myverysmall</font>
-                    <align>left,top</align>
-                    <scroll direction="vertical" rate="7" returnrate="105"
-                            startdelay="15" returndelay="15"/>
-                    <cutdown>no</cutdown>
-                    <template>[font]myverysmalllabel[/font]%(|s00e00|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmallsub[/font]Part |PARTNUMBER| of %%PARTTOTAL%%\n[font]myverysmallsub[/font]|CAST| %%[font]myverysmallsub[/font]  \nDirector: |DIRECTOR| %</template>
-                </textarea>
-            </group>
--->
         </group>
 
         <buttonlist name="videos" from="basegridlist">
