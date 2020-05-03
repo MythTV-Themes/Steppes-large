@@ -662,9 +662,14 @@
                 <value>Inetref:</value>
             </textarea>
 
-            <textedit name="inetref" from="title">
-                <position>250,210</position>
+            <textedit name="inetref" from="basenarrowtextedit">
+                <area>260,210,400,105</area>
             </textedit>
+
+            <button name="inetref_clear" from="varbuttonleft">
+                <area>680,210,-1,105</area>
+                <value>X</value>
+            </button>
 
             <textarea name="season_label" from="labeltext">
                 <area>5,315,225,105</area>

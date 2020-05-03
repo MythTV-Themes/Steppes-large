@@ -1381,7 +1381,7 @@
                 <value>Banner:</value>
             </textarea>
 
-            <button name="net_banner_button" from="basebutton">
+            <button name="net_banner_button" from="basetextbutton">
                 <area>270,670,290,80</area>
                 <value>Get Banner</value>
             </button>
