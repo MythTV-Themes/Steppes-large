@@ -512,11 +512,30 @@
         </group>
     </button>
 
-    <button name="basewidebutton" from="basebutton">
+    <button name="basetextbutton" from="basebutton">
+        <group name="center">
+            <statetype name="buttonstate">
+                <state name="active">
+                    <textarea name="text" from="basewidgettext" />
+                </state>
+                <state name="selected" from="active">
+                    <shape name="background" from="baseselectedbuttonshape" />
+                </state>
+                <state name="disabled" from="active">
+                    <shape name="background" from="baseinactivebuttonshape" />
+                </state>
+                <state name="pushed" from="active">
+                    <shape name="background" from="basepushedbuttonshape" />
+                </state>
+            </statetype>
+        </group>
+    </button>
+
+    <button name="basewidebutton" from="basetextbutton">
         <area>0,0,400,105</area>
     </button>
 
-    <button name="baselargebutton" from="basebutton">
+    <button name="baselargebutton" from="basetextbutton">
         <area>0,0,400,105</area>
         <group name="center">
             <area>0,0,100%,100%</area>
@@ -525,39 +544,39 @@
 
     <button name="varbuttonleft">
         <area>70,100%-95,-70,85</area>
-        <minsize>150,60</minsize>
+        <minsize>10,10</minsize>
         <statetype name="buttonstate">
-            <area>0,5,100%,-5</area>
-            <minsize>150,100%</minsize>
+            <area>0,5,-5,-5</area>
+            <minsize>10,100%</minsize>
             <state name="active">
                 <area>0,0,100%,100%</area>
-                <minsize>150,100%</minsize>
-                <shape name="background" from="basebuttonshape">
+                <minsize>10,100%</minsize>
+                <shape name="background" from="basetextbuttonshape">
                     <area>5,5,-5,-5</area>
-                    <minsize>150,100%</minsize>
+                    <minsize>10,100%</minsize>
                 </shape>
                 <textarea name="text" from="basewidgettext">
                     <area>15,7,-15,-7</area>
-                    <minsize>110,100%</minsize>
+                    <minsize>10,100%</minsize>
                     <align>left,vcenter</align>
                     <multiline>no</multiline>
                 </textarea>
             </state>
             <state name="disabled" from="active">
                 <shape name="background" from="baseinactivebuttonshape">
-                    <minsize>150,100%</minsize>
+                    <minsize>10,100%</minsize>
                 </shape>
                 <textarea name="text" />
             </state>
             <state name="selected" from="active">
                 <shape name="background" from="baseselectedbuttonshape">
-                    <minsize>160,100%</minsize>
+                    <minsize>10,100%</minsize>
                 </shape>
                 <textarea name="text" />
             </state>
             <state name="pushed" from="selected">
                 <shape name="background" from="basepushedbuttonshape">
-                    <minsize>160,100%</minsize>
+                    <minsize>10,100%</minsize>
                 </shape>
                 <textarea name="text" />
             </state>
@@ -773,6 +792,33 @@
             </statetype>
         </group>
     </checkbox>
+
+    <button name="baseclearbutton" from="basebutton">
+        <area>0,0,100%,100%</area>
+        <group name="center">
+            <area>0,0,100%,100%</area>
+            <statetype name="buttonstate">
+                <area>0,0,100%,100%</area>
+                <state name="active">
+                    <area>0,0,100%,100%</area>
+                    <imagetype name="mark">
+                        <area>6,6,-6,-6</area>
+                        <filename>Images/icons/damaged.png</filename>
+                    </imagetype>
+                </state>
+                <state name="selected" from="active">
+                    <shape name="background" from="baseselectedbuttonshape" />
+                </state>
+                <state name="disabled" from="active">
+                    <shape name="background" from="baseinactivebuttonshape" />
+                </state>
+                <state name="pushed" from="active">
+                    <shape name="background" from="basepushedbuttonshape" />
+                </state>
+            </statetype>
+        </group>
+    </button>
+
 
     <!-- Base definition of a selctedbox -->
     <statetype name="selectedbox">
