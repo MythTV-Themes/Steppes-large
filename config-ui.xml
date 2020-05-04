@@ -919,7 +919,7 @@
                 <multiline>true</multiline>
             </textarea>
 
-            <button name="dummy" from="basetextbutton">
+            <button name="dummy" from="basebutton">
                 <area>0%,80%,0,0</area>
                 <value></value>
                 <helptext></helptext>
