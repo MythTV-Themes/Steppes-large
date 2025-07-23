@@ -8,23 +8,23 @@
             <state name="inactive">
                 <textarea name="card" depends="!inputname">
                     <area>0,6,195,45</area>
-                    <font>mysmallgrey</font>
-                    <font state="running">mysmallgreen</font>
-                    <font state="disabled">mysmallgrey</font>
-                    <font state="error">mysmallred</font>
-                    <font state="normal">mysmallblue</font>
-                    <font state="warning">mysmallorange</font>
+                    <font>myverysmallgrey</font>
+                    <font state="running">myverysmallgreen</font>
+                    <font state="disabled">myverysmallgrey</font>
+                    <font state="error">myverysmallred</font>
+                    <font state="normal">myverysmallblue</font>
+                    <font state="warning">myverysmallorange</font>
                     <align>hcenter</align>
                     <template>(%1)</template>
                 </textarea>
                 <textarea name="inputname">
                     <area>0,6,195,45</area>
-                    <font>mysmallgrey</font>
-                    <font state="running">mysmallgreen</font>
-                    <font state="disabled">mysmallgrey</font>
-                    <font state="error">mysmallred</font>
-                    <font state="normal">mysmallblue</font>
-                    <font state="warning">mysmallorange</font>
+                    <font>myverysmallgrey</font>
+                    <font state="running">myverysmallgreen</font>
+                    <font state="disabled">myverysmallgrey</font>
+                    <font state="error">myverysmallred</font>
+                    <font state="normal">myverysmallblue</font>
+                    <font state="warning">myverysmallorange</font>
                     <align>hcenter</align>
                     <template>(%1)</template>
                 </textarea>
@@ -54,23 +54,23 @@
 
                 <textarea name="card" depends="!inputname">
                     <area>0,6,195,45</area>
-                    <font>mysmallgrey</font>
-                    <font state="running">mysmallgreen</font>
-                    <font state="disabled">mysmallgrey</font>
-                    <font state="error">mysmallred</font>
-                    <font state="normal">mysmallblue</font>
-                    <font state="warning">mysmallorange</font>
+                    <font>myverysmallgrey</font>
+                    <font state="running">myverysmallgreen</font>
+                    <font state="disabled">myverysmallgrey</font>
+                    <font state="error">myverysmallred</font>
+                    <font state="normal">myverysmallblue</font>
+                    <font state="warning">myverysmallorange</font>
                     <align>hcenter</align>
                     <template>(%1)</template>
                 </textarea>
                 <textarea name="inputname">
                     <area>0,6,195,45</area>
-                    <font>mysmallgrey</font>
-                    <font state="running">mysmallgreen</font>
-                    <font state="disabled">mysmallgrey</font>
-                    <font state="error">mysmallred</font>
-                    <font state="normal">mysmallblue</font>
-                    <font state="warning">mysmallorange</font>
+                    <font>myverysmallgrey</font>
+                    <font state="running">myverysmallgreen</font>
+                    <font state="disabled">myverysmallgrey</font>
+                    <font state="error">myverysmallred</font>
+                    <font state="normal">myverysmallblue</font>
+                    <font state="warning">myverysmallorange</font>
                     <align>hcenter</align>
                     <template>(%1)</template>
                 </textarea>

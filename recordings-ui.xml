@@ -52,19 +52,21 @@
         </buttonlist>
 
         <buttonlist name="groups" from="groupsList" shadow="groupsAlphabet">
+<!--
             <area>30,40,520,735</area>
             <buttonarea>0,0,100%,100%</buttonarea>
             <align>bottom,left</align>
+-->
             <shadowalign>vcenter,left</shadowalign>
 
             <statetype name="buttonitem">
                 <area>0,0,100%,100%</area>
 
-                <state name="shadow" from="inactive">
-                    <area>105,0,100%,105</area>
+                <state name="shadow" from="active">
+                    <area>105,0,-30,105</area>
                 </state>
-                <state name="selectedshadow" from="selectedinactive">
-                    <area>105,0,100%,105</area>
+                <state name="selectedshadow" from="selectedactive">
+                    <area>90,0,-15,105</area>
                 </state>
 
 <!--

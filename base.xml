@@ -82,23 +82,23 @@
 
     <!-- Very small -->
     <fontdef name="myverysmall" from="mysmall">
-        <pixelsize>32</pixelsize>
+        <pixelsize>30</pixelsize>
     </fontdef>
 
     <fontdef name="myverysmallbold" from="mysmallbold">
-        <pixelsize>32</pixelsize>
+        <pixelsize>30</pixelsize>
     </fontdef>
 
     <fontdef name="myverysmallnarrow" from="mysmallnarrow">
-        <pixelsize>32</pixelsize>
+        <pixelsize>30</pixelsize>
     </fontdef>
 
     <fontdef name="myverysmallnarrowbold" from="mysmallnarrowbold">
-        <pixelsize>32</pixelsize>
+        <pixelsize>30</pixelsize>
     </fontdef>
 
     <fontdef name="myverysmallnarrowlight" from="mysmallnarrowlight">
-        <pixelsize>32</pixelsize>
+        <pixelsize>30</pixelsize>
     </fontdef>
 
     <!-- Medium -->
@@ -1901,7 +1901,7 @@
             <state name="active" from="inactive">
                 <group name="areagroup">
                     <shape name="recGroupShape">
-                        <line color="#00FFFF" alpha="160" width="1" />
+                        <line color="#B03090" alpha="160" width="1" />
                     </shape>
                 </group>
             </state>
@@ -1983,7 +1983,7 @@
     <buttonlist name="groupsList">
         <arrange>stack</arrange>
         <align>bottom,left</align>
-        <area>30,25,480,785</area>
+        <area>30,40,480,735</area>
         <buttonarea>0,0,100%,100%</buttonarea>
         <scrollstyle>center</scrollstyle>
         <wrapstyle>items</wrapstyle>
