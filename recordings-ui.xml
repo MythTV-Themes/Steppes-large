@@ -28,12 +28,50 @@
 
         <buttonlist name="recgroups" from="headingList" />
 
-        <buttonlist name="groups" from="groupsList">
+        <buttonlist name="groupsAlphabet" from="groupsList">
+            <area>35,40,105,735</area>
+            <buttonarea>0,0,100%,100%</buttonarea>
+            <align>vcenter,left</align>
+
             <statetype name="buttonitem">
+                <state name="inactive">
+                    <area>0,0,0,0</area>
+                </state>
+                <state name="selectedinactive">
+                    <area>0,0,0,0</area>
+                </state>
+
+            </statetype>
+
+            <statetype name="upscrollarrow">
+                <area>0,0,0,0</area>
+            </statetype>
+            <statetype name="downscrollarrow">
+                <area>0,0,0,0</area>
+            </statetype>
+        </buttonlist>
+
+        <buttonlist name="groups" from="groupsList" shadow="groupsAlphabet">
+            <area>30,40,520,735</area>
+            <buttonarea>0,0,100%,100%</buttonarea>
+            <align>bottom,left</align>
+            <shadowalign>vcenter,left</shadowalign>
+
+            <statetype name="buttonitem">
+                <area>0,0,100%,100%</area>
+
+                <state name="shadow" from="inactive">
+                    <area>105,0,100%,105</area>
+                </state>
+                <state name="selectedshadow" from="selectedinactive">
+                    <area>105,0,100%,105</area>
+                </state>
+
+<!--
                 <state name="selectedinactive" from="inactive">
                     <area>0,0,372,180</area>
                 </state>
-
+-->
                 <state name="inactive">
                     <!-- Make inactive buttons disappear -->
                     <area>0,0,0,0</area>

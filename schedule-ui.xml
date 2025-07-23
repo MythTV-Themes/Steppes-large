@@ -927,9 +927,13 @@
 
         <buttonlist name="alphabet" from="headingList" />
 
-        <buttonlist name="shows" from="groupsList">
+        <buttonlist name="shows" from="groupsList" shadow="groupsAlphabet">
             <scrollstyle>free</scrollstyle>
             <wrapstyle>selection</wrapstyle>
+            <statetype name="buttonitem">
+                <state name="shadow" from="active" />
+                <state name="selectedshadow" from="selectedactive" />
+            </statetype>
         </buttonlist>
 
         <buttonlist name="times" from="scheduleList" />
