@@ -2158,7 +2158,7 @@
                 <area>10,10,-10,-10</area>
                 <font>myverysmall</font>
                 <align>left,top</align>
-                <template>[font]myverysmalllabel[/font]%(|s00e00|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmallsub[/font]Part |PARTNUMBER| of %%PARTTOTAL%%\n[font]myverysmallsub[/font]|CAST| %%[font]myverysmallsub[/font]  \n[font]myverysmalllabel[/font]Director: |DIRECTOR| %</template>
+                <template>[font]myverysmalllabel[/font]%(|SEASONEPISODE|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmallsub[/font]Part |PARTNUMBER| of %%PARTTOTAL%%\n[font]myverysmallsub[/font]|CAST| %%[font]myverysmallsub[/font]  \n[font]myverysmalllabel[/font]Director: |DIRECTOR| %</template>
                 <scroll direction="vertical" rate="7" returnrate="105"
                         startdelay="15" returndelay="15"/>
                 <cutdown>no</cutdown>
@@ -2177,7 +2177,7 @@
                 <scroll direction="vertical" rate="7" returnrate="105"
                         startdelay="15" returndelay="15"/>
                 <cutdown>no</cutdown>
-                <template>[font]myverysmalllabel[/font]%(|s00e00|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmallsub[/font]Part |PARTNUMBER| of %%PARTTOTAL%%\n[font]myverysmallsub[/font]|CAST| %%[font]myverysmallsub[/font]  \n[font]myverysmalllabel[/font]Director: |DIRECTOR| %</template>
+                <template>[font]myverysmalllabel[/font]%(|SEASONEPISODE|) %%|RATING| %%|(STARS|) %[font]myverysmall[/font]%DESCRIPTION%%\n\n[font]myverysmallsub[/font]Part |PARTNUMBER| of %%PARTTOTAL%%\n[font]myverysmallsub[/font]|CAST| %%[font]myverysmallsub[/font]  \n[font]myverysmalllabel[/font]Director: |DIRECTOR| %</template>
             </textarea>
         </group>
     </group>
@@ -2633,21 +2633,14 @@
                     <align>right,vcenter</align>
                 </textarea>
 
-                <textarea name="s00e00">
+                <textarea name="seasonepisode">
                     <area>15,100%-50,130,40</area>
                     <font>myverysmalllabel</font>
                     <align>center</align>
                 </textarea>
 
-                <textarea name="syndicatedepisode" from="s00e00"
-                          depends="!s00e00">
-<!--
-                    <template>%|[SYNDICATEDEPISODE|]%</template>
--->
-                </textarea>
-
-                <textarea name="stars" from="s00e00"
-                          depends="!s00e00&amp;!syndicatedepisode">
+                <textarea name="stars" from="seasonepisode"
+                          depends="!seasonepisode">
                 </textarea>
             </state>
 
@@ -2680,20 +2673,13 @@
                     <scroll direction="horizontal" returnrate="140" returndelay="4" />
                 </textarea>
 
-                <textarea name="s00e00" depends="subtitle">
+                <textarea name="seasonepisode" depends="subtitle">
                     <area>15,110,130,40</area>
                     <align>center</align>
                 </textarea>
 
-                <textarea name="syndicatedepisode" from="s00e00"
-                          depends="!s00e00&amp;subtitle">
-<!--
-                    <template>%|[SYNDICATEDEPISODE|]%</template>
--->
-                </textarea>
-
-                <textarea name="stars" from="s00e00"
-                          depends="subtitle&amp;!s00e00&amp;!syndicatedepisode">
+                <textarea name="stars" from="seasonepisode"
+                          depends="subtitle&amp;!seasonepisode">
                 </textarea>
 
                 <textarea name="subtitle">
@@ -2727,7 +2713,7 @@
                     <scroll direction="vertical" rate="10" returnrate="70"
                             startdelay="17" returndelay="17"/>
                     <cutdown>no</cutdown>
-                    <template>[font]myverysmalllabel[/font]%(|s00e00|) %%|RATING| %%|(STARS|) %[font]mydesc[/font]%DESCRIPTION%</template>
+                    <template>[font]myverysmalllabel[/font]%(|SEASONEPISODE|) %%|RATING| %%|(STARS|) %[font]mydesc[/font]%DESCRIPTION%</template>
                 </textarea>
 
                 <statetype name="jobstate">

@@ -389,7 +389,7 @@
                 <font>smallinfo</font>
                 <area>10,5,710,40</area>
                 <align>left,top</align>
-                <template>%s00e00%   %STARTDATE%   %STARTTIME%% - |ENDTIME%</template>
+                <template>%SEASONEPISODE%   %STARTDATE%   %STARTTIME%% - |ENDTIME%</template>
             </textarea>
             <textarea name="originalairdate">
                 <font>smallinfo</font>
@@ -718,7 +718,7 @@
                 <font>smallinfo</font>
                 <area>10,5,710,35</area>
                 <align>left,top</align>
-                <template>%s00e00%   %STARTDATE%   %STARTTIME%% - |ENDTIME%</template>
+                <template>%SEASONEPISODE%   %STARTDATE%   %STARTTIME%% - |ENDTIME%</template>
             </textarea>
             <textarea name="originalairdate">
                 <font>smallinfo</font>
